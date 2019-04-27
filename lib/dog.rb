@@ -1,4 +1,5 @@
 class Dog
+<<<<<<< HEAD
 
   attr_accessor :name
 
@@ -23,6 +24,25 @@ end
 
 
 
+=======
+@@all = []
+
+  def initialize(dog)
+  @dog = dog
+  end
+
+  def dog
+  self.dog >> []
+  end
+
+  def clear_all
+   self.dog.clear
+  end
+
+  
+
+end
+>>>>>>> bf476130c397d9747555ce6b68df87a09d89cca9
 # def.all
 #
 #   puts name
